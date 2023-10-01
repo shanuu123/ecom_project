@@ -15,32 +15,18 @@ class Productseeder extends Seeder
     {
         //
         DB::table('Products')->insert([
-           [ 'name'=>'sekonda',
-            'price'=>'100',
-            'category'=>'watch',
-            'discription'=>"smatwatch with beautiful color full updated version",
-            'gallery'=>"https://m.media-amazon.com/images/I/61i-nJPhQ5L._AC_SX679_.jpg"
+           [ 'name'=>'Dusk',
+            'price'=>'415',
+            'category'=>'glasses',
+            'discription'=>"App-enabled tint changing smart sunglasses with built-in audio",
+            'gallery'=>"https://ampere.shop/cdn/shop/products/Dusk-Blackframewithdarktint_polarizedlenses_550x.jpg?v=1683788487"
         ],
         [
-            'name'=>'seiko 5',
-            'price'=>'600',
-            'category'=>'watch',
-            'discription'=>"a smarTwatch with full automatic version",
-            'gallery'=>"https://m.media-amazon.com/images/I/81eTple18kL._AC_SY879_.jpg"
-        ],
-        [
-            'name'=>'smartwatch',
-            'price'=>'600',
-            'category'=>'watch',
-            'discription'=>"a smart watch with black color and full updated version ",
-            'gallery'=>"https://m.media-amazon.com/images/I/81WCB2gcg6L._AC_SX522_.jpg"
-        ],
-        [
-            'name'=>'timezone',
-            'price'=>'100',
-            'category'=>'watch',
-            'discription'=>"beautiful watch with blue display and silver color",
-            'gallery'=>"https://m.media-amazon.com/images/I/81+zpC+E6kL._AC_SX679_.jpg"
+            'name'=>'MTO P3 CLASSIC',
+            'price'=>'169',
+            'category'=>'glasses',
+            'discription'=>"These are our mum's favourite sunglasses. Based on the P3, a Hollywood icon from the 1950s, the MTO is a modern classic for men and women.",
+            'gallery'=>"https://sg.rocketeyewear.com/cdn/shop/products/05b_Mahogany_Tortoise_Clear_Front.jpg?v=1670324002&width=1200"
         ]
     ]);
         
